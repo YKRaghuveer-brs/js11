@@ -32,6 +32,11 @@ p {
 }
 
 
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
 
 .currency {
     padding: 40px 0;
@@ -59,6 +64,13 @@ p {
     background: transparent;
     font-size: 30px;
     text-align: right;
+    font-weight: bold;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.currency input:focus {
+    outline: none;
 }
 
 .swap-rate-container {
